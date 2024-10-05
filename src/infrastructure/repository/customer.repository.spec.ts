@@ -4,7 +4,7 @@ import CustomerRepository from "./customer.repository";
 import Customer from "../../domain/entity/customer";
 import Address from "../../domain/entity/address";
 
-describe("Product repository tests", () => {
+describe("Customer repository tests", () => {
   let sequelize: Sequelize;
 
   beforeEach(async () => {
